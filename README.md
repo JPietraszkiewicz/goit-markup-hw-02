@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 
-https://jpietraszkiewicz.github.io/goit-markup-hw-01/
+https://jpietraszkiewicz.github.io/goit-markup-hw-02/
