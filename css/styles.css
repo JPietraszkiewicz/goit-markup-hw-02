@@ -3,7 +3,7 @@
     --text-color: #757575;
     --selection-color: #2196F3;
     --background-color: #2F303A; 
-    
+    --hero-font-color: #FFFFFF;
     }
 
     body { font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
@@ -44,6 +44,25 @@
     
     .tel-link:hover, .tel-link:focus { color: var(--selection-color); }
     .mail-link:hover, .mail-link:focus { color: var(--selection-color); }
+
+    .hero { color: var(--hero-font-color);
+        background-color: var(--background-color); }
+        
+        .hero-head { font-weight: 900;
+            font-size: 44px;
+            line-height: 60px;
+            text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        }
+        
+        .hero-btn { font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        background-color: var(--selection-color); }
 
     .text-headline { font-weight: 700;
         font-size: 14px;
