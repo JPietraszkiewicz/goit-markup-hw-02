@@ -4,6 +4,8 @@
     --selection-color: #2196F3;
     --background-color: #2F303A; 
     --hero-font-color: #FFFFFF;
+    --footer-logo-address-color: rgba(255, 255, 255, 1);
+    --footer-links-color:rgba(255, 255, 255, 0.6);
     }
 
     body { font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
@@ -22,6 +24,9 @@
     .blue-element { color: #2196F3;
     }
     
+    .list { list-style: none;
+    }
+
     .nav-item { font-family: 'Roboto'; 
         font-weight: 500; 
         font-size: 14px; 
@@ -33,7 +38,7 @@
     
     .nav-item:hover, .nav-item:focus { color: #2196F3}
     
-    .tel-link, .mail-link { font-family: 'Roboto';
+    .header-tel-link, .header-mail-link { font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -42,8 +47,8 @@
     color: var(--text-color);
 }
     
-    .tel-link:hover, .tel-link:focus { color: var(--selection-color); }
-    .mail-link:hover, .mail-link:focus { color: var(--selection-color); }
+    .header-tel-link:hover, .header-tel-link:focus { color: var(--selection-color); }
+    .header-mail-link:hover, .header-mail-link:focus { color: var(--selection-color); }
 
     .hero { color: var(--hero-font-color);
         background-color: var(--background-color); }
@@ -105,3 +110,39 @@
         
         color: var(--text-color);
     }
+
+    .footer { background-color: var(--background-color);
+    }
+
+    .footer-logo { font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: var(--footer-logo-address-color);
+        text-decoration: none;
+    }
+
+.address {font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footer-logo-address-color);
+    }
+
+.footer-tel-link, .footer-mail-link { font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+    color: var(--footer-links-color);
+}
+
+.footer-tel-link:hover, .footer-tel-link:focus 
+{ color: var(--selection-color);
+}
+
+.footer-mail-link:hover, .footer-mail-link:focus
+ { color: var(--selection-color);
+}
