@@ -154,7 +154,7 @@
     color: var(--footer-logo-address-color);
     }
 
-.footer-tel-link, .footer-mail-link { font-weight: 400;
+.footer-tel-link, .agency-footer-mail { font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -167,6 +167,17 @@
 { color: var(--selection-color);
 }
 
-.footer-mail-link:hover, .footer-mail-link:focus
+.agency.footer-mail:hover, .agency-footer-mail:focus
  { color: var(--selection-color);
+}
+
+.portfolio-footer-mail { font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: var(--footer-links-color); 
+}
+
+.portfolio-footer-mail:hover, portfolio-footer-mail:focus { 
+    color: var(--selection-color); 
 }
