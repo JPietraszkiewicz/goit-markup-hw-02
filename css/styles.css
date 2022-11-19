@@ -68,6 +68,19 @@
             letter-spacing: 0.06em;
         background-color: var(--selection-color); }
 
+        .filters-btn { font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--primary-color);
+            border: none;
+        }
+
+        .filters-btn:hover, .filters-btn:focus { background-color: var(--selection-color);
+            color: var(--hero-font-color)
+    }
+
     .text-headline { font-weight: 700;
         font-size: 14px;
         line-height: 16px;
