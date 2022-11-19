@@ -15,7 +15,7 @@
     .header-logo { font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         text-decoration: none;
         color: var(--primary-color)
@@ -29,7 +29,7 @@
 
     .nav-item { font-weight: 500; 
         font-size: 14px; 
-        line-height: 16px; 
+        line-height: 1.14; 
         letter-spacing: 0.02em; 
     text-decoration: none; 
     color: var(--primary-color); 
@@ -40,7 +40,7 @@
     .header-tel-link, .header-mail-link { font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em; 
     text-decoration: none;
     color: var(--text-color);
@@ -54,7 +54,7 @@
         
         .hero-head { font-weight: 900;
             font-size: 44px;
-            line-height: 60px;
+            line-height: 1.36;
             text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -62,7 +62,7 @@
         
         .hero-btn { font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.87;
             align-items: center;
             text-align: center;
             letter-spacing: 0.06em;
@@ -72,7 +72,7 @@
 
         .filters-btn { font-weight: 500;
             font-size: 16px;
-            line-height: 26px;
+            line-height: 1.62;
             text-align: center;
             letter-spacing: 0.03em;
             color: var(--primary-color);
@@ -86,7 +86,7 @@
 
     .text-headline { font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         
@@ -94,7 +94,7 @@
     }
 
     .text { font-size: 14px;
-        line-height: 24px;
+        line-height: 1.71;
      letter-spacing: 0.03em;
         
         color: var(--text-color);
@@ -102,7 +102,7 @@
 
     .headline { font-weight: 700;
         font-size: 36px;
-        line-height: 42px;
+        line-height: 1.16;
         text-align: center;
         letter-spacing: 0.03em;
         
@@ -111,27 +111,27 @@
 
     .team-member { font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
         letter-spacing: 0.03em;
         
         color: var(--primary-color);
     }
 
     .team-position { font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
         letter-spacing: 0.03em;
         color: var(--text-color);
     }
 
     .projects-pic-title { font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         letter-spacing: 0.06em;
         color: var(--primary-color);
     }
 
     .projects-description { font-size: 16px;
-        line-height: 30px;
+        line-height: 1.87;
         letter-spacing: 0.03em;
         color: var(--text-color);
     }
@@ -141,20 +141,20 @@
     .footer-logo { font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--footer-logo-address-color);
         text-decoration: none;
     }
 
 .address { font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-logo-address-color);
     }
 
 .footer-tel-link, .agency-footer-mail { font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--footer-links-color);
@@ -169,7 +169,7 @@
 }
 
 .portfolio-footer-mail { font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: var(--footer-links-color); 
