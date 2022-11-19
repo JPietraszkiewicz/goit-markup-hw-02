@@ -27,8 +27,7 @@
     .list { list-style: none;
     }
 
-    .nav-item { font-family: 'Roboto'; 
-        font-weight: 500; 
+    .nav-item { font-weight: 500; 
         font-size: 14px; 
         line-height: 16px; 
         letter-spacing: 0.02em; 
