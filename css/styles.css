@@ -123,6 +123,18 @@
         color: var(--text-color);
     }
 
+    .projects-pic-title { font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: var(--primary-color);
+    }
+
+    .projects-description { font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: var(--text-color);
+    }
     .footer { background-color: var(--background-color);
     }
 
